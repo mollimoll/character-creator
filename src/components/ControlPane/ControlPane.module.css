@@ -1,5 +1,7 @@
 .controlPane {
+  position: relative;
   padding: 24px;
+  overflow: auto;
   /* Optical centering */
   padding-top: 18px;
   background-color: white;
@@ -14,8 +16,10 @@
 
 .title {
   margin: 0;
+  position: sticky;
+  left: 0;
   /* Optical centering */
-  margin-bottom: -4px;
+  /* margin-bottom: -4px; */
 }
 
 .metadata {
